@@ -33,9 +33,9 @@ jobs:
       - name: Run Python Scripts
         run: |
           # Adjust the paths as needed.
-          python3 document_generator/python3 parse_to_html.py challenge.stemgraph challenge.html
-          python3 document_generator/python3 parse_to_md.py challenge.stemgraph challenge.md
-          python3 document_generator/python3 parse_to_latex.py challenge.stemgraph challenge.tex
+          python3 document_generator/parse_to_html.py challenge.stemgraph challenge.html
+          python3 document_generator/parse_to_md.py challenge.stemgraph challenge.md
+          python3 document_generator/parse_to_latex.py challenge.stemgraph challenge.tex
           
       # 5. Rename challenge.md to README.md and commit the change
       - name: Update README.md from challenge.md
