@@ -8,5 +8,5 @@ on:
 
 jobs:
   call-build-release:
-    uses: STEMgraph/release_workflow/.github/workflows/build-release-files.yml@v0.0.1
+    uses: STEMgraph/release_workflow/.github/workflows/release_stemgraph_challenge.yml@v0.0.1
     secrets: inherit
